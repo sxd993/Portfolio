@@ -1,5 +1,21 @@
-function Home() {
-    return <h2>Home Page</h2>;
-}
+import React from 'react';
+import Team from '@components/Team/Team';
+import WorkExperience from '@components/WorkExperience/WorkExperience';
+import WhyChooseUs from '@components/WhyChooseUs/WhyChooseUs';
+import Project from '@components/Project/Project';
+import TestimonialSlider from '@components/TestimonialSlider/TestimonialSlider';
+import './Home.css';
 
-export default Home;    
+const Home = () => {
+  return (
+    <div className="home-container">
+      <Team />
+      <WorkExperience />
+      <WhyChooseUs />
+      <Project />
+      <TestimonialSlider />
+    </div>
+  );
+};
+
+export default Home;
