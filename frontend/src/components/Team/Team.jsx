@@ -7,15 +7,15 @@ const Team = () => {
       <h2 className="team-title">Наша команда</h2>
       <div className="team-members">
         <div className="team-member">
-          <div className="placeholder-image1"></div>
+          <div className="team-placeholder-image1"></div>
           <p className="team-name">Евгений</p>
         </div>
         <div className="team-member">
-          <div className="placeholder-image2"></div>
+          <div className="team-placeholder-image2"></div>
           <p className="team-name">Владимир</p>
         </div>
         <div className="team-member">
-          <div className="placeholder-image3"></div>
+          <div className="team-placeholder-image3"></div>
           <p className="team-name">Артем</p>
         </div>
       </div>

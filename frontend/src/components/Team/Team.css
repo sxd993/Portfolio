@@ -23,7 +23,7 @@
   text-align: center;
 }
 
-.placeholder-image1 {
+.team-placeholder-image1 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -35,7 +35,7 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.placeholder-image2 {
+.team-placeholder-image2 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -47,7 +47,7 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.placeholder-image3 {
+.team-placeholder-image3 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -59,9 +59,9 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.team-member:hover .placeholder-image1,
-.team-member:hover .placeholder-image2,
-.team-member:hover .placeholder-image3 {
+.team-member:hover .team-placeholder-image1,
+.team-member:hover .team-placeholder-image2,
+.team-member:hover .team-placeholder-image3 {
   transform: scale(1.1);
   box-shadow: 0 0 20px rgb(255, 255, 255);
 }
@@ -71,14 +71,5 @@
   color: #D3D3D3;
   margin: 5px 0;
   font-size: 1rem;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.team-member:hover .team-name,
-.team-member:hover .team-role {
-  opacity: 1;
-  transform: translateY(0);
   padding-top: 1rem;
 }

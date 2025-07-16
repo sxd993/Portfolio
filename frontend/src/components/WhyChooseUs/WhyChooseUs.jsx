@@ -3,11 +3,11 @@ import './WhyChooseUs.css';
 
 const WhyChooseUs = () => {
   return (
-    <section className="testimonial-slider-section">
-      <h2 className="testimonial-slider-title">Почему выбрать нас?</h2>
-      <div className="testimonial-slider-content">
-        <p className="testimonial-slider-text">Мы профессионалы</p>
-        <p className="testimonial-slider-author">И работаем быстро</p>
+    <section className="why-choose-us-section">
+      <h2 className="why-choose-us-title">Почему выбрать нас?</h2>
+      <div className="why-choose-us-content">
+        <p className="why-choose-us-text">Мы профессионалы</p>
+        <p className="why-choose-us-author">И работаем быстро</p>
       </div>
     </section>
   );

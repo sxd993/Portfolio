@@ -1,18 +1,18 @@
-.testimonial-slider-section {
+.work-exp-section {
   padding: 20px;
   background: #1A1A1A;
   text-align: center;
   position: relative;
 }
 
-.testimonial-slider-title {
+.work-exp-title {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
   color: #D3D3D3;
 }
 
-.testimonial-slider-content {
+.work-exp-content {
   padding: 20px;
   background: #2F2F2F;
   border: 1px solid #4A4A4A;
@@ -20,25 +20,23 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.testimonial-slider-text,
-.testimonial-slider-author,
-.testimonial-slider-desc {
+.work-exp-text,
+.work-exp-author,
+.work-exp-desc {
   color: #D3D3D3;
   margin: 5px 0;
   font-size: 1rem;
-  opacity: 0;
   transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
-.testimonial-slider-content:hover .testimonial-slider-text,
-.testimonial-slider-content:hover .testimonial-slider-author,
-.testimonial-slider-content:hover .testimonial-slider-desc {
-  opacity: 1;
+.work-exp-content:hover .work-exp-text,
+.work-exp-content:hover .work-exp-author,
+.work-exp-content:hover .work-exp-desc {
   transform: translateY(0);
 }
 
-.testimonial-slider-content:hover {
+.work-exp-content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
 }

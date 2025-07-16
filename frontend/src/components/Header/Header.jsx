@@ -4,11 +4,11 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header">
-      <h1 className="header-title">Welcome to Our Site</h1>
-      <nav className="nav">
-        <Link to="/projects" className="nav-button">Проекты</Link>
-        <Link to="/contacts" className="nav-button">Контакты</Link>
+    <header className="header-section">
+      <h2 className="header-title">Web</h2>
+      <nav className="header-nav">
+        <Link to="/projects" className="header-link">Проекты</Link>
+        <Link to="/contacts" className="header-link">Контакты</Link>
       </nav>
     </header>
   );

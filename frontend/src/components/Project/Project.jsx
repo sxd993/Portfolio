@@ -3,12 +3,12 @@ import './Project.css';
 
 const Projects = () => {
   return (
-    <section className="projects-section">
-      <h2 class="project-name">Projects</h2>
-      <div className="projects-grid">
-        <div className="project-placeholder"></div>
-        <div className="project-placeholder"></div>
-        <div className="project-placeholder"></div>
+    <section className="proj-section">
+      <h2 className="proj-title">Projects</h2>
+      <div className="proj-content">
+        <div className="proj-placeholder"></div>
+        <div className="proj-placeholder"></div>
+        <div className="proj-placeholder"></div>
       </div>
     </section>
   );

@@ -14,6 +14,13 @@
   width: 140%;
   height: 140%;
   background: radial-gradient(circle, rgba(100, 100, 100, 0.05) 0%, transparent 60%);
+  animation: rotate 30s linear infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .testimonial-slider-title,

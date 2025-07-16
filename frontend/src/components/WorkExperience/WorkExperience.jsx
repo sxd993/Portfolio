@@ -3,12 +3,12 @@ import './WorkExperience.css';
 
 const WorkExperience = () => {
   return (
-    <section className="testimonial-slider-section">
-      <h2 className="testimonial-slider-title">Опыт работы</h2>
-      <div className="testimonial-slider-content">
-        <p className="testimonial-slider-text">2025 - 2035</p>
-        <p className="testimonial-slider-author">Бабайка и партнеры</p>
-        <p className="testimonial-slider-desc">Хз, походу всю жизнь будет эту хуету делать</p>
+    <section className="work-exp-section">
+      <h2 className="work-exp-title">Опыт работы</h2>
+      <div className="work-exp-content">
+        <p className="work-exp-text">2025 - 2035</p>
+        <p className="work-exp-author">Бабайка и партнеры</p>
+        <p className="work-exp-desc">Хз, походу всю жизнь будет эту хуету делать</p>
       </div>
     </section>
   );

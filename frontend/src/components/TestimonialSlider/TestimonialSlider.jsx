@@ -19,7 +19,7 @@ const TestimonialSlider = () => {
 
   return (
     <section className="testimonial-slider-section">
-      <h2 className="testimonial-slider-title">Что о нас говорят</h2>
+      <h2 className="testimonial-slider-title">Что о нас говорят?</h2>
       <div className="testimonial-slider-content">
         <p className="testimonial-slider-text">"{testimonials[current].text}"</p>
         <p className="testimonial-slider-author">- {testimonials[current].author}</p>
