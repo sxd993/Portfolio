@@ -1,6 +1,6 @@
 .team-section {
   padding: 20px;
-  background: #1A1A1A;
+  
   text-align: center;
   position: relative;
 }
@@ -17,6 +17,11 @@
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
+  padding: 20px;
+  background: #2F2F2F;
+  border: 1px solid #4A4A4A;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .team-member {

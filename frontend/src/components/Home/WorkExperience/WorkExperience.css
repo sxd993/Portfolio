@@ -1,6 +1,6 @@
 .work-exp-section {
   padding: 20px;
-  background: #1A1A1A;
+  background: var(--bg-gradient);
   text-align: center;
   position: relative;
 }

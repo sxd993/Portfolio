@@ -1,6 +1,6 @@
 .testimonial-slider-section {
   padding: 2rem;
-  background: #1A1A1A;
+  background: var(--bg-gradient);
   text-align: center;
   position: relative;
   overflow: hidden;
