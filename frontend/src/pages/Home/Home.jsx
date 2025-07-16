@@ -1,9 +1,9 @@
 import React from 'react';
-import Team from '@components/Team/Team';
-import WorkExperience from '@components/WorkExperience/WorkExperience';
-import WhyChooseUs from '@components/WhyChooseUs/WhyChooseUs';
-import Project from '@components/Project/Project';
-import TestimonialSlider from '@components/TestimonialSlider/TestimonialSlider';
+import Team from '@components/Home/Team/Team';
+import WorkExperience from '@components/Home/WorkExperience/WorkExperience';
+import WhyChooseUs from '@components/Home/WhyChooseUs/WhyChooseUs';
+import Project from '@components/Home/Project/Project';
+import TestimonialSlider from '@components/Home/TestimonialSlider/TestimonialSlider';
 import './Home.css';
 
 const Home = () => {

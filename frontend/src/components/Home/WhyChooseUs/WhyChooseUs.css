@@ -4,7 +4,13 @@
   text-align: center;
   position: relative;
 }
-
+.why-choose-us-content p {
+  color: #D3D3D3;
+  margin: 5px 0;
+  font-size: 1rem;
+  transform: translateY(10px);
+  transition: transform 0.3s ease;
+}
 .why-choose-us-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -20,14 +26,6 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.why-choose-us-text,
-.why-choose-us-author {
-  color: #D3D3D3;
-  margin: 5px 0;
-  font-size: 1rem;
-  transform: translateY(10px);
-  transition: transform 0.3s ease;
-}
 
 .why-choose-us-content:hover .why-choose-us-text,
 .why-choose-us-content:hover .why-choose-us-author {
