@@ -24,19 +24,6 @@
   animation: fadeInBlock 1.2s ease-out both;
 }
 
-.why-choose-us-section::before {
-  content: '';
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle at 30% 30%, var(--accent), transparent 70%);
-  filter: blur(100px);
-  opacity: 0.15;
-  top: -150px;
-  left: -150px;
-  z-index: 0;
-}
-
 .why-choose-us-title {
   font-size: 2.6rem;
   font-weight: 700;
