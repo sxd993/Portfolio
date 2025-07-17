@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
-const Header = () => {
-  const [theme, setTheme] = useState('dark');
-
-  useEffect(() => {
-    document.body.classList.remove('light', 'dark');
-    document.body.classList.add(theme);
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
-  };
-
+const Header = ({ theme, toggleTheme }) => {
   return (
     <header className="header-section">
       <NavLink to="/" className={({ isActive }) => `header-title${isActive ? ' active' : ''}`}>

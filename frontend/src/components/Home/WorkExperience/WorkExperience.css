@@ -30,13 +30,3 @@
   transition: transform 0.3s ease;
 }
 
-.work-exp-content:hover .work-exp-text,
-.work-exp-content:hover .work-exp-author,
-.work-exp-content:hover .work-exp-desc {
-  transform: translateY(0);
-}
-
-.work-exp-content:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
-}

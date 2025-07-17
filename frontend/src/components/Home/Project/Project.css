@@ -31,10 +31,7 @@
   transition: all 0.3s ease;
 }
 
-.proj-content:hover .proj-placeholder {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
-}
+
 
 .proj-content:hover {
   transform: scale(1.0); /* Нет общего масштабирования */

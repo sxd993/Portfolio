@@ -1,8 +1,9 @@
 .team-section {
   padding: 20px;
-  
-  text-align: center;
-  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .team-title {
@@ -22,6 +23,7 @@
   border: 1px solid #4A4A4A;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  max-width: 50%;
 }
 
 .team-member {
@@ -62,13 +64,6 @@
   border: 1px solid #4A4A4A;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-.team-member:hover .team-placeholder-image1,
-.team-member:hover .team-placeholder-image2,
-.team-member:hover .team-placeholder-image3 {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
 .team-name,
