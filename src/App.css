@@ -1,0 +1,14 @@
+:root {
+  --bg-color: #101014;
+  --text-color: #e2e8f0;
+  --accent: #8ab4f8;
+  --shadow: rgba(138, 180, 248, 0.3);
+  --theme-transition: 0.3s ease;
+}
+
+body.light {
+  --bg-color: #fdfdfd;
+  --text-color: #1e293b;
+  --accent: #4f46e5;
+  --shadow: rgba(79, 70, 229, 0.15);
+}
