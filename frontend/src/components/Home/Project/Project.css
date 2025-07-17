@@ -1,38 +1,15 @@
 .proj-section {
-  padding: 20px;
-  background: var(--bg-gradient);
-  text-align: center;
-  position: relative;
+  @apply p-5 bg-[var(--bg-color)] text-center;
 }
 
 .proj-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #D3D3D3;
+  @apply text-3xl font-bold mb-5 text-gray-300;
 }
 
 .proj-content {
-  padding: 20px;
-  background: #2F2F2F;
-  border: 1px solid #4A4A4A;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  @apply p-5 bg-[#2F2F2F] border border-[#4A4A4A] shadow-[0_0_10px_rgba(255,255,255,0.5)] flex justify-center gap-5 flex-wrap transition-all duration-300;
 }
 
 .proj-placeholder {
-  width: 200px;
-  height: 150px;
-  background-color: #333;
-  transition: all 0.3s ease;
-}
-
-
-
-.proj-content:hover {
-  transform: scale(1.0); /* Нет общего масштабирования */
+  @apply w-48 h-36 bg-gray-700 transition-all duration-300;
 }

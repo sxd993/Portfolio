@@ -1,75 +1,38 @@
 .team-section {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
+  @apply p-5 flex flex-col items-center;
 }
 
 .team-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: #D3D3D3;
+  @apply text-3xl font-bold mb-5 text-gray-300;
 }
 
 .team-members {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  flex-wrap: wrap;
-  padding: 20px;
-  background: #2F2F2F;
-  border: 1px solid #4A4A4A;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  max-width: 50%;
+  @apply flex justify-center gap-8 flex-wrap p-5 bg-[#2F2F2F] border border-[#4A4A4A] shadow-[0_0_10px_rgba(255,255,255,0.5)] max-w-2xl transition-all duration-300;
 }
 
 .team-member {
-  text-align: center;
+  @apply text-center;
+}
+
+.team-placeholder-image1,
+.team-placeholder-image2,
+.team-placeholder-image3 {
+  @apply w-32 h-32 rounded-full bg-cover bg-center border border-[#4A4A4A] shadow-[0_0_10px_rgba(255,255,255,0.5)] transition-all duration-300;
 }
 
 .team-placeholder-image1 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
   background-image: url('../../../assets/Jeka.jpg');
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #4A4A4A;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .team-placeholder-image2 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
   background-image: url('../../../assets/Vova1.jpg');
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #4A4A4A;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .team-placeholder-image3 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
   background-image: url('../../../assets/Artem.jpg');
-  background-size: cover;
-  background-position: center;
-  border: 1px solid #4A4A4A;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .team-name,
 .team-role {
-  color: #D3D3D3;
-  margin: 5px 0;
-  font-size: 1rem;
-  padding-top: 1rem;
+  @apply text-gray-300 mt-2 text-base;
 }

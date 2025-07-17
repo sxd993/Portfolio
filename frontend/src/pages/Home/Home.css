@@ -1,11 +1,7 @@
 .home-container {
-  background: var(--bg-gradient);
-  color: #fff;
-  font-family: Arial, sans-serif;
+  @apply bg-[var(--bg-color)] text-white font-sans min-h-screen;
 }
 
 h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  
+  @apply text-2xl mb-2;
 }
